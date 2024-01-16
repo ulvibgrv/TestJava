@@ -7,6 +7,7 @@ public class Main {
         System.out.println("Enter the number");
         int num = sc.nextInt();
         sort(arr, num);
+        System.out.println("change number 2");
     }
     public static void sort(int [] arr, int num){
         for(int i = 0; i < arr.length -1; i++){
